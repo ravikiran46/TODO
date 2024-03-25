@@ -1,0 +1,87 @@
+* {
+  font-family: Copperplate, Papyrus, fantasy;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7efe5;
+}
+
+.container {
+  max-width: 600px;
+  margin: 75px auto;
+  background-color: #fbf9f1;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: calc(100% - 90px);
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #aad7d9;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  gap: 30px;
+}
+
+li {
+  margin-bottom: 10px;
+  margin-top: 6px;
+  margin-left: 70px;
+  font-weight: bold;
+}
+
+.task-option {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.completed-button {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.task-item {
+  text-decoration-line: none;
+}
+
+.task-item.checked {
+  text-decoration-line: line-through;
+  font-weight: normal;
+}
+
+.task {
+  display: flex;
+}
+
+.remove-button {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #aad7d9;
+  cursor: pointer;
+}
